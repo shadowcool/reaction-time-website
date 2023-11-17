@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+.start-label, .text-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Align reaction-time-text in center */
+.reaction-time-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.reaction-time {
+    display: none;
+    /* position: absolute;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+    bottom: 0px; */
+    margin-top: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-heading {
+    margin-top: 2rem;
+}
+
+.start-label {
+    margin-top: 5rem;
+}
+
+.start-btn {
+    margin-top: 2rem;
+    border-radius: 5px;   
+    width: 12rem;
+    height: 3rem;
+    background-color: cornflowerblue;
+    border: 0;
+}
+
+.start-btn:hover {
+    opacity: 0.8;
+}
+
+.start-btn:active {
+    opacity: 1;
+}
+
+.vertical-text-container {
+    position: relative !important;
+}
+
+.vertical-text {
+    position: absolute;
+    top: 50%;
+    margin-top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.reaction-red-window, .reaction-green-window {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+
+.reaction-green-window {
+    display: none;
+    background-color: green;
+}
+
+.reaction-red-window {
+    display: none;
+    background-color: red;
+}
